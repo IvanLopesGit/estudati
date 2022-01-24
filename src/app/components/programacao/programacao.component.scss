@@ -1,0 +1,62 @@
+* {
+    background-color: #4D4D4D;
+    width: auto;
+}
+
+.programacao-container { 
+    height: 48.80rem;
+    padding-left: 45px;
+    padding-top: 50px;
+}
+
+.accordion-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    mat-expansion-panel-header, mat-expansion-panel {
+        background-color: rgb(199, 199, 199);
+    }
+
+    mat-panel-title {
+        background: none;
+        font-size: 1.4rem;
+        color: #4D4D4D;
+    }
+}
+
+.accordion {
+    margin-bottom: 1rem;
+    width: 50rem;
+}
+
+.python-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10rem;
+    color: rgb(199, 199, 199);
+    
+    mat-card-title {
+        margin-bottom: 20px;
+    }
+
+    mat-card-subtitle {
+        color: rgb(199, 199, 199);
+    }
+}
+
+mat-card-actions {
+
+    button {
+        background: rgb(199, 199, 199);
+    }
+    
+    a {
+        text-decoration: none;
+        background: rgb(199, 199, 199);
+        color: #4D4D4D;
+    }
+}
+

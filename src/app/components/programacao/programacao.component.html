@@ -1,0 +1,34 @@
+<div class="programacao-container">
+    <div class="accordion-container">
+        <mat-accordion class="accordion">
+            <mat-expansion-panel (opened)="panelOpenState = true"
+                                 (closed)="panelOpenState = false">
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  Python
+                </mat-panel-title>
+              </mat-expansion-panel-header>
+
+              <mat-card class="python-card">
+                <mat-card-header>
+                  <mat-card-title>Aula 1</mat-card-title>
+                </mat-card-header>
+                <mat-card-subtitle>Introdução e Fundamentos - Parte 1</mat-card-subtitle>
+                <img mat-card-image src="../../../assets/img/python_logo.png" alt="aula1">
+                <mat-card-content>
+                  <p>
+                    Nessa aula vamos falar um pouco sobre Python e fundamentos importantes
+                    da linguagem.
+                  </p>
+                </mat-card-content>
+                <mat-card-actions>
+                  <button mat-button>
+                    <a routerLink="/programacao/python/lesson1" class="menu-title">Começar a Aula</a>
+                  </button>
+                </mat-card-actions>
+              </mat-card>
+              
+            </mat-expansion-panel>
+        </mat-accordion>
+    </div>
+</div>
